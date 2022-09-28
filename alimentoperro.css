@@ -1,0 +1,420 @@
+body{ background-color: lightyellow;}
+
+.lineabotones{
+  
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: yellow;
+}
+
+
+
+.header{ display: grid;
+  width: 99%;
+  height: 150px;
+  background-color:green;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  border-style: solid;
+  margin: 10px;
+}
+.imglogo{ grid-column: 1;
+  grid-row: 1;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+ .texto1{ grid-row: 1;
+  grid-column: 2;
+  color: white;
+  font-size: 90px;
+
+  text-align: center;
+  margin-left:160px ;
+}
+
+.imglogo2{ 
+border-radius: 100px;
+grid-column: 3;
+grid-row: 1;
+margin-top: 10px;
+margin-left: 200px;
+margin-right: 20px;
+
+}
+
+
+.aside{display: grid;
+margin-left: 80%; 
+border-style: solid;
+margin-right: 10px;
+margin-top: 50px;
+background-color: white;
+border-color: red;
+border-radius: 10px;
+position: absolute;
+
+}
+
+.a1 { 
+ grid-row: 1;
+ grid-column: 1;
+  text-align: center;
+}
+.a2 { 
+ grid-row: 2;
+ grid-column: 1;
+ margin-left: 30px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+margin-right: 40px;
+}
+.a3 { 
+ grid-row: 3;
+ grid-column: 1;
+ text-align: center;
+ margin-bottom: 20px;
+ 
+}
+
+.calculador{ 
+  display: grid;
+  position: absolute;
+  margin-left: 80%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: red;
+  margin-top: 550px;
+  background-color: white;
+}
+
+.c1{ 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.c2 { 
+  margin-left: 10px;
+}
+
+ .c3 { 
+ text-align: center;
+ color: green;
+ font-size: 20px;
+ 
+}
+
+.darwin{display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 50px;
+background-color: white;
+border-radius: 10px;
+border-color: green;
+margin-left: 10px;
+}
+
+.imgdarwin{ 
+  grid-row: 1;
+  grid-column: 1;
+ width: 140px;
+}
+
+.pdarwin{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+
+}
+
+.fdarwin{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 150px;
+}
+
+.huellasad{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 250px;
+background-color: white;
+border-radius: 10px;
+border-color: green;
+margin-left: 10px;
+}
+
+.imghuellasad{
+  grid-row: 1;
+  grid-column: 1;
+ width: 110px;
+}
+
+.phuellasad{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+
+}
+
+.fhuellasad{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.sabrositosad{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 480px;
+background-color: white;
+border-radius: 10px;
+border-color: green;
+margin-left: 10px;
+}
+
+.imgsabrositosad{
+  grid-row: 1;
+  grid-column: 1;
+ width: 120px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.psabrositosad{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+
+}
+
+.fsabrositosad{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.sabrositosca{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 700px;
+background-color: white;
+border-radius: 10px;
+border-color: green;
+margin-left: 10px;
+}
+
+.imgsabrositosca{
+  grid-row: 1;
+  grid-column: 1;
+ width: 140px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.psabrositosca{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+
+}
+
+.fsabrositosca{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.doguiad{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 950px;
+ background-color: white;
+ border-radius: 10px;
+ border-color: green;
+ margin-left: 10px;
+}
+
+.imgdoguiad{
+  grid-row: 1;
+  grid-column: 1;
+ width: 100px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}
+
+.pdoguiad{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.fdoguiad{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.upper{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 1180px;
+ background-color: white;
+ border-radius: 10px;
+ border-color: green;
+ margin-left: 10px;
+}
+
+.imgupper{
+  grid-row: 1;
+  grid-column: 1;
+ width: 140px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.pupper{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+
+}
+
+.fupper{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.dogproad{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 1400px;
+ background-color: white;
+ border-radius: 10px;
+ border-color: green;
+ margin-left: 10px;
+}
+
+.imgdogproad{
+  grid-row: 1;
+  grid-column: 1;
+ width: 90px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.pdogproad{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+   margin-left: 10px;
+}
+
+.fdogproad{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+
+.dogproca{ 
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+ margin-top: 1630px;
+ background-color: white;
+ border-radius: 10px;
+ border-color: green;
+ margin-left: 10px;
+}
+
+.imgdogproca{
+  grid-row: 1;
+  grid-column: 1;
+ width: 120px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.pdogproca{
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+   margin-left: 10px;
+}
+
+.fdogproca{
+  grid-row: 1;
+  grid-column: 3;
+  margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+
+}
