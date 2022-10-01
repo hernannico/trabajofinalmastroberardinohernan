@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CyH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="styleform.css">
+<link rel="stylesheet" href="formulario.css">
+<script>
+    window.addEventListener("beforeunload", (evento) => {
+      if (true) {
+          evento.preventDefault();
+          evento.returnValue = "";
+          return "";
+      }
+  });
+  </script>
+
 </head>
 <body>
    <header>
@@ -19,7 +29,7 @@
 
     <div class="lineabotones">
         <a href="index.html" class="btn btn-danger active" aria-current="page">Inicio</a>
-        <a href="#" class="btn btn-danger">Nuestra empresa</a>
+        <a href="nosotros.html" class="btn btn-danger">Nuestra empresa</a>
         <a href="alimentogato.html" class="btn btn-danger">Alimentos para gato</a>
         <a href="alimentoperro.html" class="btn btn-danger">Alimentos para perro</a>
         <a href="forrajes.html" class="btn btn-danger">Forrajes</a>
@@ -33,6 +43,10 @@
 <a class="what" target="_blank" href=https://api.whatsapp.com/send?phone=5493364526007&text=Hola!%20Quiero%20consultar%20sus%20productos!><img class="a2" src="fotos/whatssapp.png" alt=""></a>
  
 </div>
+
+<a href="https://www.facebook.com/" target="_blank"><img class="face" src="fotos/face.png" alt=""height="150px" width="150px"></a>
+<a href="https://www.instagram.com/" target="_blank"><img class="insta" src="fotos/insta.jpg" alt="" height="150px" width="150px"></a>
+
 </aside>
 
 <main> 

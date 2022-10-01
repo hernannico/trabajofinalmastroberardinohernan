@@ -59,7 +59,10 @@ border-color: red;
 border-radius: 10px;
 position:absolute;
 }
+.aside:hover{
+  border-width: 10px;
 
+}
 .a1 { 
  grid-row: 1;
  grid-column: 1;
@@ -82,7 +85,21 @@ position:absolute;
 }
 
 
+.descarga{ 
+  position: absolute;
+  margin-left: 80%;
+  border-style: solid;
+  margin-top: 550px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-color: green;
+  color: red;
+}
 
+.descarga:hover{ 
+  background-color: lightgreen;
+}
 
 .comedero{display: grid;
   position: absolute;
@@ -128,7 +145,7 @@ margin-left: 10px;
   height: auto;
   border-style: solid;
   border-color: black;
- margin-top: 220px;
+ margin-top: 240px;
  border-radius: 10px;
  border-color: green;
  background-color: white;
@@ -154,7 +171,7 @@ margin: 10px;
   grid-column: 3;
   margin-top: 50px;
 margin-right: 10px;
-margin-left: 10px;
+margin-left: 80px;
 
 }
 
@@ -179,6 +196,7 @@ margin-left: 10px;
  width: 120px;
  margin-top: 10px;
  margin-bottom: 10px;
+margin-right: 10px;
 }
 
 .ppeine{
@@ -233,7 +251,7 @@ margin-left: 10px;
   grid-column: 3;
   margin-top: 50px;
 margin-right: 10px;
-margin-left: 10px;
+margin-left: 80px;
 
 }
 
@@ -245,7 +263,7 @@ margin-left: 10px;
   height: auto;
   border-style: solid;
   border-color: black;
- margin-top: 850px;
+ margin-top: 860px;
  border-radius: 10px;
  border-color: green;
  background-color: white;
@@ -272,7 +290,7 @@ margin-left: 10px;
   grid-column: 3;
   margin-top: 50px;
 margin-right: 10px;
-margin-left: 10px;
+margin-left: 60px;
 
 }
 
@@ -313,4 +331,26 @@ margin-left: 10px;
 margin-right: 10px;
 margin-left: 10px;
 
+}
+
+.footer{ 
+  z-index: 2;
+  border-style: solid;
+  width: 99%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: green;
+ margin-left: 10px;
+ margin-top: 1250px;
+}
+
+ .logomio{ 
+  margin-left: 90%;
+  margin-top: 10px;
+  position: absolute;
+}
+.footer1 { 
+  margin-top: 20px;
+  margin-left: 800px;
+  color: white;
 }

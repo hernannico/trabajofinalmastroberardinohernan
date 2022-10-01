@@ -63,7 +63,10 @@ border-color: red;
 border-radius: 10px;
 position: absolute;
 }
+.aside:hover{
+  border-width: 10px;
 
+}
 .a1 { 
  grid-row: 1;
  grid-column: 1;
@@ -85,7 +88,21 @@ margin-right: 40px;
  
 }
 
+.descarga{ 
+  position: absolute;
+  margin-left: 80%;
+  border-style: solid;
+  margin-top: 550px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-color: green;
+  color: red;
+}
 
+.descarga:hover{ 
+  background-color: lightgreen;
+}
 
 .polenta{display: grid;
   position: absolute;
@@ -357,4 +374,26 @@ text-align: right;
 margin-right: 10px;
 margin-left: 10px;
 text-align: right;
+}
+
+.footer{ 
+  z-index: 2;
+  border-style: solid;
+  width: 99%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: green;
+ margin-left: 10px;
+ margin-top: 1300px;
+}
+
+ .logomio{ 
+  margin-left: 90%;
+  margin-top: 10px;
+  position: absolute;
+}
+.footer1 { 
+  margin-top: 20px;
+  margin-left: 800px;
+  color: white;
 }

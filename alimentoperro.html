@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cyh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <link rel="stylesheet" href="alimentoperro.css">
-<script src="js1.js"></script>
-  
+
 <script >
   function comparar(){
     let precio = document.getElementById("lista1");
@@ -18,6 +17,16 @@
     document.getElementById("salida").innerHTML=valor;
   
   }
+</script>
+
+<script>
+  window.addEventListener("beforeunload", (evento) => {
+    if (true) {
+        evento.preventDefault();
+        evento.returnValue = "";
+        return "";
+    }
+});
 </script>
 
 </head>
@@ -33,7 +42,7 @@
 
     <div class="lineabotones">
         <a href="index.html" class="btn btn-danger active" aria-current="page">Inicio</a>
-        <a href="" class="btn btn-danger">Nuestra empresa</a>
+        <a href="nosotros.html" class="btn btn-danger">Nuestra empresa</a>
         <a href="alimentogato.html" class="btn btn-danger">Alimentos para gato</a>
         <a href="alimentoperro.html" class="btn btn-danger">Alimentos para perro</a>
         <a href="forrajes.html" class="btn btn-danger">Forrajes</a>
@@ -144,6 +153,15 @@
 
 
                 </main>
+                
+                <footer> 
+                  <div class="footer">
+                  <img class="logomio" src="fotos/logomio.png" alt="" width="50px" height="50px">
+                     <p class="footer1"> Trabajo final by Mastroberardino desings 2022. </p>
+                   </div>
+               </footer>
 
-</body>
+        </body>
+
+
 </html>

@@ -1,3 +1,0 @@
-var texto= "estas seguro";
-
-

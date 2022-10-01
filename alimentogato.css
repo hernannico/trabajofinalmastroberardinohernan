@@ -59,7 +59,10 @@ border-color: red;
 border-radius: 10px;
 position: absolute;
 }
+.aside:hover{
+  border-width: 10px;
 
+}
 .a1 { 
  grid-row: 1;
  grid-column: 1;
@@ -334,4 +337,26 @@ margin-left: 10px;
 margin-right: 10px;
 margin-left: 10px;
 
+}
+
+.footer{ 
+  z-index: 2;
+  border-style: solid;
+  width: 99%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: green;
+ margin-left: 10px;
+ margin-top: 1420px;
+}
+
+ .logomio{ 
+  margin-left: 90%;
+  margin-top: 10px;
+  position: absolute;
+}
+.footer1 { 
+  margin-top: 20px;
+  margin-left: 800px;
+  color: white;
 }
