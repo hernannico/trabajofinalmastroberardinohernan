@@ -1,149 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyH</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="alimentogato.css">
-  
-<script >
-  function comparar(){
-    let precio = document.getElementById("lista1");
-     let valor = precio. options[lista1.selectedIndex].value;
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyH</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="alimentogato.css">
 
-    document.getElementById("salida").innerHTML=valor;
-  
-  }
-</script>
+  <script>
+    function comparar() {
+      let precio = document.getElementById("lista1");
+      let valor = precio.options[lista1.selectedIndex].value;
 
-<script>
-window.addEventListener("beforeunload", function (e) {
-  var confirmationMessage = "\o/";
 
-  (e || window.event).returnValue = confirmationMessage; 
-  return confirmationMessage;                           
-});
-     </script>
+      document.getElementById("salida").innerHTML = valor;
+
+    }
+  </script>
+
+
 
 </head>
-<body > 
-   <header>
-    
+
+<body>
+  <header>
+
     <div class="header">
       <img class="imglogo" src="fotos/logo2.jpg" alt="" height="120" width="120">
       <h1 class="texto1">CyH Forrajeria</h1>
       <img class="imglogo2" src="fotos/logo2.jpg" alt="" height="120" width="120">
-       </div>
+    </div>
 
 
     <div class="lineabotones">
-        <a href="index.html" class="btn btn-danger active" aria-current="page">Inicio</a>
-        <a href="nosotros.html" class="btn btn-danger">Nuestra empresa</a>
-        <a href="alimentogato.html" class="btn btn-danger">Alimentos para gato</a>
-        <a href="alimentoperro.html" class="btn btn-danger">Alimentos para perro</a>
-        <a href="forrajes.html" class="btn btn-danger">Forrajes</a>
-        <a href="accesorios.html" class="btn btn-danger">Accesorios</a>
-        <a href="formulario.html" class="btn btn-danger">Contacto</a>
-        </div>
-    
-</header>
-<aside>
-<div class="aside">
-<h3 class="a1">Nuevo Ingreso!!!</h3>
-<img class="a2" src="fotos/fotobreddog.jpg" alt="">
- <form class="a3" action="">
-   <a href="https://www.breddog.com.ar/" target="_blank"><input type ="button" class="boton1" value="Conocelo" id="boton1" ></a>
-  </form>
-</div>
+      <a href="index.html" class="btn btn-danger active" aria-current="page">Inicio</a>
+      <a href="nosotros.html" class="btn btn-danger">Nuestra empresa</a>
+      <a href="alimentogato.html" class="btn btn-danger">Alimentos para gato</a>
+      <a href="alimentoperro.html" class="btn btn-danger">Alimentos para perro</a>
+      <a href="forrajes.html" class="btn btn-danger">Forrajes</a>
+      <a href="accesorios.html" class="btn btn-danger">Accesorios</a>
+      <a href="formulario.html" class="btn btn-danger">Contacto</a>
+    </div>
 
-<div class="calculador">
-  <h4 class="c1"><u> Comparar Precios</u></h4><br>
-   <form action="" name="formcomp">
-  <select class="c2" id="lista1" onchange="comparar()">
-    
-    <option value="$4.000" selected>Huellas gato x 20 kg</option>
-    <option value="$4.500" selected>Sabrositos gato x 20 kg</option>
-    <option value="$5.000" selected>Gati x 15 kg</option>
-    <option value="$3.500" selected>Ulyses gato x 10 kg</option>
-    <option value="$9.000" selected>Cat chow x 15 kg</option>
-    <option value="$8.000" selected>Cat pro x 15 kg</option>
-    <option value= "" selected>Elige un producto</option>
-  </select>
-   </form><br>
-    <div class="c3" id="salida"  ></div><br>
+  </header>
+  <aside>
+    <div class="aside">
+      <h3 class="a1">Nuevo Ingreso!!!</h3>
+      <img class="a2" src="fotos/fotobreddog.jpg" alt="">
+      <form class="a3" action="">
+        <a href="https://www.breddog.com.ar/" target="_blank"><input type="button" class="boton1" value="Conocelo"
+            id="boton1"onclick="alert('Estas abandonando nuestra pagina')"></a>
+      </form>
+    </div>
 
-</div>
+    <div class="calculador">
+      <h4 class="c1"><u> Comparar Precios</u></h4><br>
+      <form action="" name="formcomp">
+        <select class="c2" id="lista1" onchange="comparar()">
 
-</aside>
+          <option value="$4.000" selected>Huellas gato x 20 kg</option>
+          <option value="$4.500" selected>Sabrositos gato x 20 kg</option>
+          <option value="$5.000" selected>Gati x 15 kg</option>
+          <option value="$3.500" selected>Ulyses gato x 10 kg</option>
+          <option value="$9.000" selected>Cat chow x 15 kg</option>
+          <option value="$8.000" selected>Cat pro x 15 kg</option>
+          <option value="" selected>Elige un producto</option>
+        </select>
+      </form><br>
+      <div class="c3" id="salida"></div><br>
 
-<main> 
+    </div>
+
+  </aside>
+
+  <main>
     <div class="huellasgato">
-        <img class="imghuellasgato" src="fotos/fotohuellasgato.jpg" alt="">
-          <p class="phuellasgato">Huellas Gatos es un alimento pensado para competir con las líneas más económicas del mercado. Entre los beneficios se destacan buena digestión y palatabilidad. </p>
-          <form class="fhuellasgato" action="">
-        <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-          </form>
-        </div>
+      <img class="imghuellasgato" src="fotos/fotohuellasgato.jpg" alt="">
+      <p class="phuellasgato">Huellas Gatos es un alimento pensado para competir con las líneas más económicas del
+        mercado. Entre los beneficios se destacan buena digestión y palatabilidad. </p>
+      <form class="fhuellasgato" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
 
-        <div class="sabrositosgato">
-          <img class="imgsabrositosgato" src="fotos/fotosabrositosgato.jpg" alt="">
-            <p class="psabrositosgato">Dale a tu gato el balance adecuado en un delicioso alimento de pollo, carne y vegetales que aporta todos los nutrientes que necesita, además de antioxidantes, que lo ayudan a reforzar su sistemas inmune y mantener sus huesos sanos y fuertes, calcio y fósforo, que favorece a un adecuado crecimiento, y la taurina, para un corazón y una vista saludables. Un Mix perfecto para un gato perfecto. </p>
-            <form class="fsabrositosgato" action="">
-          <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-            </form>
-          </div>
-          
-          <div class="gati">
-            <img class="imggati" src="fotos/fotogati.jpg" alt="">
-              <p class="pgati"> PURINA GATI está elaborado con los mejores ingredientes que aportan al alimento un balance nutricional superior y máxima palatabilidad con beneficios concretos para tu gato.</p>
-              <form class="fgati" action="">
-            <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-              </form>
-            </div>
-            
-            <div class="ulises">
-              <img class="imgulises" src="fotos/fotoulisesgato.jpg" alt="">
-                <p class="pulises">ALIMENTO BALANCEADO COMPLETO PARA GATOS ADULTOS.
-                  CONTIENE TAURINA mayor agudeza visual y corazón fuerte.
-                  MAYOR ACEPTACIÓN forma, textura, sabor y aroma aseguran la elección de la croqueta.
-                  PIEL Y PELO RELUCIENTE aporte de ácidos grasos esenciales omega 3 y 6, vitaminas y minerales.
-                  VÍAS URINARIAS PROTEGIDAS disminuye el riesgo de formación de cálculos de estruvita y oxalato. </p>
-                <form class="fulises" action="">
-              <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-                </form>
-              </div>
-              <div class="catchow">
-                <img class="imgcatchow" src="fotos/fotocatchow.jpg" alt="">
-                  <p class="pcatchow">Una buena nutrición es fundamental para proteger la salud de los gatos. Es por eso que desarrollamos PURINA® CAT CHOW® CON DEFENSE PLUS®, elaborado con una selección de ingredientes naturales y mejorado, con la inclusión de un prebiótico natural.
+    <div class="sabrositosgato">
+      <img class="imgsabrositosgato" src="fotos/fotosabrositosgato.jpg" alt="">
+      <p class="psabrositosgato">Dale a tu gato el balance adecuado en un delicioso alimento de pollo, carne y vegetales
+        que aporta todos los nutrientes que necesita, además de antioxidantes, que lo ayudan a reforzar su sistemas
+        inmune y mantener sus huesos sanos y fuertes, calcio y fósforo, que favorece a un adecuado crecimiento, y la
+        taurina, para un corazón y una vista saludables. Un Mix perfecto para un gato perfecto. </p>
+      <form class="fsabrositosgato" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
 
-                    Alimento completo y balanceado para gatos adultos de todos los tamaños.Defense Plus®, una combinación exclusiva de prebiótico natural, antioxidantes, vitaminas, y minerales que ayudan a fortalecer las defensas naturales de tu gato. Esto ayudará a promover un sistema inmune fuerte para proteger su estilo de vida único. </p>
-                  <form class="fcatchow" action="">
-                <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-                  </form>
-                </div>
+    <div class="gati">
+      <img class="imggati" src="fotos/fotogati.jpg" alt="">
+      <p class="pgati"> PURINA GATI está elaborado con los mejores ingredientes que aportan al alimento un balance
+        nutricional superior y máxima palatabilidad con beneficios concretos para tu gato.</p>
+      <form class="fgati" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
 
-                <div class="catpro">
-                  <img class="imgcatpro" src="fotos/fotocatpro.jpg" alt="">
-                    <p class="pcatpro"> Una propuesta nutricional especializada para cumplir los requerimientos de gatos castrados y gatos de interiores. 
-                      Propuesta nutricional avalada por una formulación desarrollada por veterinarios expertos en nutrición. 
-                      Para cumplir con las necesidades específicas de gatos castrados y gatos de interiores. 
-                      CatPro Castrados Indoor, para exigentes de la nutrición animal.</p>
-                    <form class="fcatpro" action="">
-                  <a href="formulario.html"> <input type ="button" value="Mas info" id="boton2" ></a>
-                    </form>
-                  </div>
+    <div class="ulises">
+      <img class="imgulises" src="fotos/fotoulisesgato.jpg" alt="">
+      <p class="pulises">ALIMENTO BALANCEADO COMPLETO PARA GATOS ADULTOS.
+        CONTIENE TAURINA mayor agudeza visual y corazón fuerte.
+        MAYOR ACEPTACIÓN forma, textura, sabor y aroma aseguran la elección de la croqueta.
+        PIEL Y PELO RELUCIENTE aporte de ácidos grasos esenciales omega 3 y 6, vitaminas y minerales.
+        VÍAS URINARIAS PROTEGIDAS disminuye el riesgo de formación de cálculos de estruvita y oxalato. </p>
+      <form class="fulises" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
+    <div class="catchow">
+      <img class="imgcatchow" src="fotos/fotocatchow.jpg" alt="">
+      <p class="pcatchow">Una buena nutrición es fundamental para proteger la salud de los gatos. Es por eso que
+        desarrollamos PURINA® CAT CHOW® CON DEFENSE PLUS®, elaborado con una selección de ingredientes naturales y
+        mejorado, con la inclusión de un prebiótico natural.
 
-      </main>
+        Alimento completo y balanceado para gatos adultos de todos los tamaños.Defense Plus®, una combinación exclusiva
+        de prebiótico natural, antioxidantes, vitaminas, y minerales que ayudan a fortalecer las defensas naturales de
+        tu gato. Esto ayudará a promover un sistema inmune fuerte para proteger su estilo de vida único. </p>
+      <form class="fcatchow" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
 
-      <footer> 
-        <div class="footer">
-        <img class="logomio" src="fotos/logomio.png" alt="" width="50px" height="50px">
-           <p class="footer1"> Trabajo final by Mastroberardino desings 2022. </p>
-         </div>
-     </footer>
+    <div class="catpro">
+      <img class="imgcatpro" src="fotos/fotocatpro.jpg" alt="">
+      <p class="pcatpro"> Una propuesta nutricional especializada para cumplir los requerimientos de gatos castrados y
+        gatos de interiores.
+        Propuesta nutricional avalada por una formulación desarrollada por veterinarios expertos en nutrición.
+        Para cumplir con las necesidades específicas de gatos castrados y gatos de interiores.
+        CatPro Castrados Indoor, para exigentes de la nutrición animal.</p>
+      <form class="fcatpro" action="">
+        <a href="formulario.html"> <input type="button" value="Mas info" id="boton2"></a>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <img class="logomio" src="fotos/logomio.png" alt="" width="50px" height="50px">
+      <p class="footer1"> Trabajo final by Mastroberardino desings 2022. </p>
+    </div>
+  </footer>
 
 </body>
+
 </html>
